@@ -1,17 +1,15 @@
 #include "main.h"
-#include <stddef.h>
-
 /**
- * _strlen - Entry point
- * Description: _strlen returns the length of a string
- * @s: string length to be printed
- * Returns: the value of @_strlen
+ * _strlen - check the code for Holberton School students.
+ * @s: declaration of *s and paramters for the function _strlen
+ * Return: Always 0.
  */
 int _strlen(char *s)
 {
-	size_t str = 0;
+	int c;
 
-	while (*s++)
-	str++;
-	return (str);
+	for (c = 0; s[c] != 0; c++)
+	{
+	}
+	return (c);
 }
