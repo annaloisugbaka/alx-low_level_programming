@@ -1,0 +1,1 @@
+This folder contains files on more pointers and arrays ALX SE project
